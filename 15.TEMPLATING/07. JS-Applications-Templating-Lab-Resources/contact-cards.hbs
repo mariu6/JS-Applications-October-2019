@@ -1,0 +1,9 @@
+<div id="contacts">
+    {{#each contacts}} {{! #each очаква данните да са рапнати в обект }}
+         {{> contact}}   {{! > извиква частичен шаблон - partial template }}
+    {{else}}
+        <i>(empty)</i>
+    {{/each}}
+</div>
+
+
